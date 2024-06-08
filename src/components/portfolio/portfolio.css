@@ -1,0 +1,103 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.portfolio__item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;  
+    transition: var(--transition);
+   
+}
+.portfolio__item:hover{
+    border-color: var(  --color-primary-variant);
+    background:transparent;
+}
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+}
+.portfolio__item-cta{
+    display: flex;
+    gap: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+
+.check_components{
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width:1024px)
+{
+    .portfolio__container{  
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        gap: 1.2rem;
+       
+    }
+
+
+}
+
+@media screen and (max-width:600px)
+{
+   .portfolio__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   }
+   .portfolio__item-cta{
+    /* padding-left: 1rem; */
+   }
+
+
+
+}
+
+
+/* badges......*/
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+}
+
+/* React badge */
+.react {
+    color: #61DAFB; /* React color */
+    background-color: #000; /* Background color */
+}
+
+/* Bootstrap badge */
+.bootstrap {
+    color: #563d7c; /* Bootstrap color */
+    background-color: #f8f9fa; /* Background color */
+}
+
+/* Node.js badge */
+.node {
+    color: #68a063; /* Node.js color */
+    background-color: #fff; /* Background color */
+}
+
+/* MongoDB badge */
+.mongodb {
+    color: #589636; /* MongoDB color */
+    background-color: #fff; /* Background color */
+}
