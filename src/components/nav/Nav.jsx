@@ -7,7 +7,7 @@ import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 
 const Nav = () => {
-  const [activeLink, setActiveLink] = useState('#'); // State to track active link
+  const [activeLink, setActiveLink] = useState('#home'); // Set default to #home
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -16,37 +16,37 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href='#'
-        className={activeLink === '#' ? 'active' : ''}
-        onClick={() => handleLinkClick('#')}
+        href='#home'
+        className={activeLink === '#home' ? 'active' : ''}
+        onClick={() => handleLinkClick('#home')}
       >
         <AiOutlineHome />
       </a>
       <a
         href='#about'
         className={activeLink === '#about' ? 'active' : ''}
-        onClick={() => handleLinkClick('about')}
+        onClick={() => handleLinkClick('#about')}
       >
         <AiOutlineUser />
       </a>
       <a
         href='#experiences'
         className={activeLink === '#experiences' ? 'active' : ''}
-        onClick={() => handleLinkClick('experiences')}
+        onClick={() => handleLinkClick('#experiences')}
       >
         <BiBook />
       </a>
       <a
         href='#service'
         className={activeLink === '#service' ? 'active' : ''}
-        onClick={() => handleLinkClick('service')}
+        onClick={() => handleLinkClick('#service')}
       >
         <RiServiceLine />
       </a>
       <a
         href='#contact'
         className={activeLink === '#contact' ? 'active' : ''}
-        onClick={() => handleLinkClick('contact')}
+        onClick={() => handleLinkClick('#contact')}
       >
         <BiMessageSquareDetail />
       </a>
@@ -55,4 +55,3 @@ const Nav = () => {
 };
 
 export default Nav;
-  
