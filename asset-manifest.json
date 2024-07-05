@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolio-00/static/css/main.3eafa1bf.css",
+    "main.js": "/github.io/portfolio-00/static/js/main.ab4714bf.js",
+    "static/media/me.png": "/github.io/portfolio-00/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/Screenshot 2024-06-02 231329.png": "/github.io/portfolio-00/static/media/Screenshot 2024-06-02 231329.573a981ff3107be49825.png",
+    "static/media/me-about.jpg": "/github.io/portfolio-00/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/SanaSainath Resumee.pdf": "/github.io/portfolio-00/static/media/SanaSainath Resumee.0e2f61631c8558f5a988.pdf",
+    "index.html": "/github.io/portfolio-00/index.html",
+    "main.3eafa1bf.css.map": "/github.io/portfolio-00/static/css/main.3eafa1bf.css.map",
+    "main.ab4714bf.js.map": "/github.io/portfolio-00/static/js/main.ab4714bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eafa1bf.css",
+    "static/js/main.ab4714bf.js"
+  ]
+}
