@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href='#'
+        href='#home'
         className={activeLink === '#home' ? 'active' : ''}
         onClick={() => handleLinkClick('#home')}
       >
