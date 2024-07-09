@@ -9,7 +9,7 @@ const Portfolio = () => {
 <div className='container portfolio__container'>
   <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-    <img src='/images/me.png' alt='About Img' />
+    <img src='/images/Screenshot 2024-06-02 231329.png' alt='About Img' />
       </div>
       <h3> </h3>
       <div className='check_components'>
