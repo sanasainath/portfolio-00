@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import  img11 from '../../images/Screenshot 2024-06-02 231329.png'
+
 const Portfolio = () => {
   return (
    <section id="portfolio">
@@ -9,7 +9,7 @@ const Portfolio = () => {
 <div className='container portfolio__container'>
   <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-      <img src={img11} alt=''/>
+    <img src='/images/me.png' alt='About Img' />
       </div>
       <h3> </h3>
       <div className='check_components'>
@@ -42,7 +42,7 @@ const Portfolio = () => {
   </article>
   <article className='portfolio__item'>
     <div className='portfolio__item-image'>
-    <img src={img11} alt=''/>
+    <img src='/images/me.png' alt='About Img' />
     </div>
       <h3>This is a portfolio item title</h3>
       <div className='portfolio__item-cta'>

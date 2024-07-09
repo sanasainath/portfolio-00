@@ -3,7 +3,7 @@ import './header.css'
 import Cty from './Cty'
 
 import HeaderSocial from './HeaderSocial'
-import aimg from '../../images/me.png'
+
 const Header = () => {
   return (
     <header>
@@ -17,7 +17,7 @@ const Header = () => {
         <Cty/>
         <HeaderSocial/>
         <div className='me'>
-        <img src={aimg} alt="me" />
+        <img src='/images/me.png' alt='About Img' />
 
         </div>
         <a href='#contact' className='scroll__down'>Scroll Down</a>

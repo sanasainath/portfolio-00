@@ -3,8 +3,8 @@ import './about.css'
 import {FaAward} from 'react-icons/fa' 
 import {FiUsers} from 'react-icons/fi' 
 import {VscFolderLibrary} from 'react-icons/vsc' 
-import imgg from '../../images/me-about.jpg'
-// import Me from '../../assets/me-about.jpg'
+
+
 const About = () => {
   return (
     <section id='about'>
@@ -13,7 +13,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className="about__me-image">
-            <img src = {imgg}  alt='About Img'/>
+          <img src='/images/portfolio2.jpg' alt='About Img' />
           </div>
 
         </div>
