@@ -40,7 +40,7 @@ header{
 .me{
 
     background: var(--color-primary);
-    width:22rem;
+    width:18rem;
     height: 30rem;
     position:absolute;
     left:50%;
@@ -50,6 +50,14 @@ header{
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
     background: linear-gradient(var(--color-primary),transparent);
+
+}
+.me img{
+    height: 340px;
+    width: 260px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: -7px;
 
 }
 .scroll__down{
